@@ -1,6 +1,6 @@
 # MochimoMiner
 Miner for Mochimo coin - Post quantum currency
-
+# AmoveoMinerMan (v1.0 - Mar-2019) (using the latest version is better)
 ## Linux
 ### Linux Install dependencies
 ```
@@ -9,11 +9,46 @@ sudo apt-get install libcpprest-dev
 ```
 
 ## Usage:
-Run the executable file like this template:
+Just run the executable file, everything will be done automatically.
+
+### Mining with auto-script:
+- You should restarts this miner every 2 hours, it makes our miner more stable, avoid duplicate share with other machine.
+
+###Remember to Edit *your wallet address* inside config.txt
+
+## Config example (config.txt & deviceconfig.txt)
+### config.txt
 ```
-./MCM_cuda -u youkey#workername -p http://mcmpool.pw:8085
+your_address <required>
+pool_URL <required>
+pool_URL_1 <optional>
+pool_URL_2 <optional>
+pool_URL_3 <optional>
 ```
-example: (this is mining to my account, please change to yours)
+### deviceconfig.txt (we recommend you should let AmoveoMinerMan generates the config file)
 ```
-./MCM_Cuda -u 0eddc33b0337d63a519b84b73eac4f755a17345afe8cdc148bb05c9499288e55#dkat -p http://mcmpool.pw:8085
+number of device
+device_id_0 intensity_rate
+device_id_1 intensity_rate
+device_id_2 intensity_rate
 ```
+## Known performance:
+- GTX 1080Ti: 2.4 GH/s (2.6 GH/s for OC cards)
+- GTX 1080: ??
+- GTX 1070: 1.45 GH/s
+- GTX 1070: 1.2 GH/s
+- GTX 1060: ??
+- GTX 1050: ??
+- GTX 970: 0.75 GH/s
+
+## Linux
+### Linux Install dependencies
+
+```
+sudo apt-get update
+sudo apt-get install libcpprest2.8 libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
+```
+If you can not install above libs, copy ***.so** files inside the bundle to this path: **/usr/lib/x86_64-linux-gnu** and **/usr/lib**
+
+# Donation
+- ETH: 0x5DD020B1b6e90d49D3350061393a0F555f1BFa0D
