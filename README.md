@@ -14,7 +14,7 @@ Just run the executable file, everything will be done automatically.
 ### Mining with auto-script:
 - You should restarts this miner every 2 hours, it makes our miner more stable, avoid duplicate share with other machine.
 
-###Remember to Edit *your wallet address* inside config.txt
+### Remember to Edit *your wallet address* inside config.txt
 
 ## Config example (config.txt & deviceconfig.txt)
 ### config.txt
