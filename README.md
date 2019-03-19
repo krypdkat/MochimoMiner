@@ -1,6 +1,6 @@
 # MochimoMiner
 Miner for Mochimo coin - Post quantum currency
-# AmoveoMinerMan (v1.0 - Mar-2019) (using the latest version is better)
+# MochimoMiner (v1.0 - Mar-2019) (using the latest version is better)
 ## Linux
 ### Linux Install dependencies
 ```
@@ -25,7 +25,7 @@ pool_URL_1 <optional>
 pool_URL_2 <optional>
 pool_URL_3 <optional>
 ```
-### deviceconfig.txt (we recommend you should let AmoveoMinerMan generates the config file)
+### deviceconfig.txt (we recommend you should let MochimoMiner generates the config file)
 ```
 number of device
 device_id_0 intensity_rate
