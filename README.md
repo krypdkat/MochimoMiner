@@ -1,6 +1,7 @@
 # MochimoMiner
 Miner for Mochimo coin - Post quantum currency
-# MochimoMiner (v1.0 - Mar-2019) (using the latest version is better)
+# MochimoMiner (v1.1 - Mar-2019) (using the latest version is better)
+https://github.com/krypdkat/MochimoMiner/releases/tag/1.1
 ## Linux
 ### Linux Install dependencies
 ```
