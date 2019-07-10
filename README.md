@@ -1,7 +1,11 @@
 # MochimoMiner
 Miner for Mochimo coin - Post quantum currency
-# MochimoMiner (v1.1 - Mar-2019) (using the latest version is better)
-https://github.com/krypdkat/MochimoMiner/releases/tag/1.1
+
+# MochimoMiner (v2.4 - July-2019) (you must use the latest version)
+https://github.com/krypdkat/MochimoMiner/releases/tag/2.4
+
+Pool/Miner discord: https://discord.gg/SFuQCEv
+
 ## Linux
 ### Linux Install dependencies
 ```
@@ -34,13 +38,13 @@ device_id_1 intensity_rate
 device_id_2 intensity_rate
 ```
 ## Known performance:
-- GTX 1080Ti: 2.4 GH/s (2.6 GH/s for OC cards)
+- GTX 1080Ti: 250Khs -> 280Khs
 - GTX 1080: ??
-- GTX 1070: 1.45 GH/s
-- GTX 1070: 1.2 GH/s
+- GTX 1070: ??
+- GTX 1070: ??
 - GTX 1060: ??
 - GTX 1050: ??
-- GTX 970: 0.75 GH/s
+- GTX 970: ??
 
 ## Linux
 ### Linux Install dependencies
@@ -49,7 +53,6 @@ device_id_2 intensity_rate
 sudo apt-get update
 sudo apt-get install libcpprest2.8 libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
 ```
-If you can not install above libs, copy ***.so** files inside the bundle to this path: **/usr/lib/x86_64-linux-gnu** and **/usr/lib**
 
 # Donation
 - ETH: 0x5DD020B1b6e90d49D3350061393a0F555f1BFa0D
